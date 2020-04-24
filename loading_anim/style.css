@@ -10,6 +10,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    transition: all 0.5s;
     transform: translate(-50%,-50%);
 }
 .loader span {
@@ -49,7 +50,7 @@ body {
     }
     25%{
         color: yellow;
-        transform: translateY(-35px);
+        transform: translateY(-30px);
         margin-left: 20px;
         scale: 1.6;
     }
