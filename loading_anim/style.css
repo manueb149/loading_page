@@ -46,17 +46,18 @@ body {
     0%{
         color: rgba(255,255,255,.2);
         transform: translateY(0px);
-        margin-left: 0px;;
+        margin-left: 0px;
     }
     25%{
         color: yellow;
         transform: translateY(-30px);
         margin-left: 20px;
         scale: 1.6;
+        text-shadow: 0px 15px rgba(0, 0, 0, 0.5);
     }
     100%{
         color: rgba(255,255,255,.2);
         transform: translateY(0px);
-        margin-left: 0px;;
+        margin-left: 0px;
     }
 }
